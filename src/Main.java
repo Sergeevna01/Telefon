@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int x, y, s, f;
-        x = 1200;
-        y = 100;
+        int money, divider, bonus, score;
+        money = 1200;
+        divider = 100;
 
-        if (x >= 1000) {
-            s = x / y;
-            f = s + x;
-            System.out.println("Сумма счета равна: " + f + " Начислено бонусов: " + s);
+        if (money >= 1000) {
+            bonus = money / divider;
+            score = bonus + money;
+            System.out.println("Сумма счета равна: " + score + " Начислено бонусов: " + bonus);
         } else {
-          System.out.println("Сумма счета равна: " + x + " Начислено бонусов: 0");
+            System.out.println("Сумма счета равна: " + money + " Начислено бонусов: 0");
         }
     }
 }
